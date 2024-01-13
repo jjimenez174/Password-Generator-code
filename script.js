@@ -31,7 +31,7 @@ function generatePassword() {
   var symbols = confirm("\n Do you want to use special characters? \n Press OK or Cancel"); 
 
 
-//Message shown when criteria is not met
+//Message shown when criteria are not met
   while (
     capitals === false &&
     letterCase === false &&
