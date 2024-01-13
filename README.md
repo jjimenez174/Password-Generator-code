@@ -14,7 +14,7 @@ The purpose of the Password-Generator is to apply what I have learned in Javascr
 * Styling Attribute
 
 ## Website Preview
-![image]()
+![image](./Assets/images/Screenshot.png)
 
 ## Link Deploy Application
 
