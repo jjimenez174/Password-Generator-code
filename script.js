@@ -18,7 +18,7 @@ function generatePassword() {
   var pwdLength = (prompt("\n How many characters do you want your password to be? \n Must be between 8 and 128 characters."));
  
 if (pwdLength < 8 || pwdLength > 128) {
-    alert("Please enter a number between 8 - 128."); 
+    alert("Please enter a number between 8 - 128. Try again."); 
   }
 
 //Message shown when password length is accepted
