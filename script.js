@@ -16,7 +16,7 @@ var symbols;
 //Define generatePassword Length
 function generatePassword() {
   var pwdLength = (prompt("\n How many characters do you want your password to be? \n Must be between 8 and 128 characters."));
-  document.generatePassword("btn").type = "reset";
+ 
   while (pwdLength < 8 || pwdLength > 128) {
     alert("Password length must be between 8 - 128 characters. Please try again."); 
     var pwdLength = (prompt("How many characters do you want your password to be? (8 - 128 characters).")); 
