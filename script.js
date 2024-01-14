@@ -17,19 +17,19 @@ var symbols;
 function generatePassword() {
   var pwdLength = (prompt("\n How many characters do you want your password to be? \n Must be between 8 and 128 characters."));
  
-  while (pwdLength < 8 || pwdLength > 128) {
-    alert("Password length must be between 8 - 128 characters. Please try again."); 
+if (pwdLength < 8 || pwdLength > 128) {
     var pwdLength = (prompt("Please enter a number between 8 - 128.")); 
   }
 
 //Message shown when password length is accepted
+  else{
   alert("Your password length will be " + pwdLength + " characters."); 
 
   var capitals = confirm("\n Do you want to use UPPERCASE characters? \n Press OK or Cancel"); 
   var letterCase = confirm("\n Do you want to use LOWERCASE characters? \n Press OK or Cancel"); 
   var integers = confirm("\n Do you want to use NUMBERS? \n Press OK or Cancel"); 
   var symbols = confirm("\n Do you want to use SPECIAL CHARACTERS? \n Press OK or Cancel"); 
-
+  }
 
 //Message shown when criteria are not met
   while (
