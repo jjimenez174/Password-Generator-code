@@ -41,7 +41,7 @@ function generatePassword() {
 
         var capitals = confirm("\n Do you want to use UPPERCASE letters? \n Press OK or Cancel"); 
         var letterCase = confirm("\n Do you want to use LOWERCASE letters? \n Press OK or Cancel"); 
-        var integers = confirm("\n o you want to use NUMBERS? \n Press OK or Cancel");
+        var integers = confirm("\n Do you want to use NUMBERS? \n Press OK or Cancel");
         var symbols = confirm("\n Do you want to use SPECIAL CHARACTERS? \n Press OK or Cancel"); 
     }
   //Password Generator
