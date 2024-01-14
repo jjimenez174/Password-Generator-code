@@ -25,10 +25,10 @@ function generatePassword() {
 //Message shown when password length is accepted
   alert("Your password length will be " + pwdLength + " characters."); 
 
-  var capitals = confirm("\n Do you want to use uppercase characters? \n Press OK or Cancel"); 
-  var letterCase = confirm("\n Do you want to use lowercase characters? \n Press OK or Cancel"); 
-  var integers = confirm("\n Do you want to use numbers? \n Press OK or Cancel"); 
-  var symbols = confirm("\n Do you want to use special characters? \n Press OK or Cancel"); 
+  var capitals = confirm("\n Do you want to use UPPERCASE characters? \n Press OK or Cancel"); 
+  var letterCase = confirm("\n Do you want to use LOWERCASE characters? \n Press OK or Cancel"); 
+  var integers = confirm("\n Do you want to use NUMBERS? \n Press OK or Cancel"); 
+  var symbols = confirm("\n Do you want to use SPECIAL CHARACTERS? \n Press OK or Cancel"); 
 
 
 //Message shown when criteria are not met
