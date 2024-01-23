@@ -19,6 +19,7 @@ function generatePassword() {
  
 if (pwdLength < 8 || pwdLength > 128) {
     alert("Please enter a number between 8 - 128. Try again."); 
+    return generatePassword();
   }
 
 //Message shown when password length is accepted
